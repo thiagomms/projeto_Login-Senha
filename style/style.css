@@ -1,0 +1,86 @@
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+        .btn {
+            height: 50px;
+            display: table-cell;
+            vertical-align: middle;
+            width: 100%;
+            background-color: #1194f6;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 2px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        input[type="text"], input[type="password"] {
+            border: none;
+            padding: 15px;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            font-size: 16px;
+            background-color: #f9e867;
+            border-bottom: 3px solid #cab734;
+            outline: none;
+            height: 50px;
+        } 
+        .caixa-login {
+            width: 350px;
+            height: 450px;
+            min-height: 450px;
+            max-height: 450px;
+            display: table;
+            background-color: #F8D117;
+            margin-top: 5em;
+            margin-left: auto;
+            margin-right: auto;
+            -webkit-box-shadow: 0px 2px 5px 1px rgba(153,153,153,1);
+            -moz-box-shadow: 0px 2px 5px 1px rgba(153,153,153,1);
+            box-shadow: 0px 2px 5px 1px rgba(153,153,153,1);
+            position: relative;
+            overflow: hidden;
+            padding: 0px 30px;
+        } .container h1 {
+            font-size: 23px;
+            text-align: center;
+            position: relative;
+            color: #0a39ab;
+            font-weight: normal;
+            margin-top: 18px;
+            margin-bottom: 30px;
+            margin-left: 25px;
+            margin-right: 25px;
+        } 
+        .auto {
+            width: 100%;
+            height: 100px;
+            background-color: #ffd900;
+            background-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.151));
+        }
+        .auto h1 {
+            margin-top: 0;
+            font-family: verdana;
+            color: rgb(26, 17, 138);
+            font-size: 25px;
+            text-align: center;
+            
+        }
+        .icon {
+            width: 40px;
+            height: 40px;
+            padding: 10px 50px;
+            position: relative;
+        }
+        #textinho {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        
